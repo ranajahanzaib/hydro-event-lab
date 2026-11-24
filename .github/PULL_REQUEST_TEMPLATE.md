@@ -1,10 +1,18 @@
-Fixes #<issue_number_goes_here>
+### Summary
 
-> It's a good idea to open an issue first for discussion.
+<!-- A clear and concise description of the changes proposed in this pull request. -->
 
-**Description**
-A brief summary of what this PR does and why.
+### Related Issue
 
-- [ ] Tests pass
-- [ ] README updated if needed
-- [ ] No breaking changes (or described below)
+Fixes #
+
+### Proposed Changes
+
+-
+
+### Checklist
+
+- [ ] Tests pass (`make test`)
+- [ ] Code formatted and linted (`make lint`)
+- [ ] Documentation updated if relevant
+- [ ] Adheres to scientific integrity guidelines (daily temporal resolution, no hourly lag inferences)

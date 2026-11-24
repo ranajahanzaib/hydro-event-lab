@@ -1,46 +1,92 @@
-## Contributing
+# Contributing to HydroEventLab
 
-We welcome contributions of all kinds to improve this project! Here's how you can get involved:
+We welcome contributions to **HydroEventLab**! As an open-source scientific platform, we value contributions including bug fixes, new hydrological baseflow or metrics algorithms, performance improvements, documentation enhancements, and accessibility audits.
 
-1. **Fork the Repository**: Start by forking the repository to your GitHub account.
+---
 
-2. **Clone Your Fork**: Clone the forked repository to your local machine:
+## Code of Conduct
 
-   ```bash
-   git clone <repo_url>
-   cd repo_dir
-   ```
+All contributors are expected to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). Please read it before participating.
 
-3. **Create a Branch**: Create a new branch for your feature or bug fix:
+---
 
-   ```bash
-   git checkout -b feature-name
-   ```
+## Development Workflow
 
-4. **Make Changes**: Make your changes to the codebase. Be sure to follow existing code style and conventions.
+### 1. Prerequisites
 
-5. **Commit Changes**: Commit your changes with a clear and descriptive message:
+- **Node.js**: >= 18.x
+- **pnpm**: >= 9.x
+- **Python**: >= 3.11
+- **uv**: >= 0.4.x
 
-   ```bash
-   git commit -m "Add detailed description of the changes"
-   ```
+### 2. Fork and Clone
 
-6. **Push Changes**: Push your changes to your fork:
+Fork the repository on GitHub, then clone your fork locally:
 
-   ```bash
-   git push origin feature-name
-   ```
+```bash
+git clone https://github.com/<your-username>/hydro-event-lab.git
+cd hydro-event-lab
+```
 
-7. **Submit a Pull Request**: Open a pull request from your branch to the main repository's branch. Include a detailed description of your changes and the problem they solve.
+### 3. Environment Setup
 
-8. **Review and Feedback**: Participate in the review process. Make any requested changes, and your contribution will be merged!
+```bash
+# Setup Python virtual environment and install Node dependencies
+make setup
 
-### Guidelines
+# Ingest sample benchmark catchments and build the local analytical database
+make rebuild-data
+```
 
-- Ensure your code follows the existing style and conventions.
-- Include tests for any new functionality or bug fixes.
-- Write clear, concise commit messages and pull request descriptions.
+### 4. Running Locally
 
-### Issues
+```bash
+# Run both the Next.js frontend (port 3000) and FastAPI backend (port 8000)
+make dev
+```
 
-Feel free to report bugs or suggest enhancements by creating an issue. Be sure to include detailed information about the problem and, if possible, steps to reproduce it.
+The web application is accessible at `http://localhost:3000` and API documentation at `http://localhost:8000/docs`.
+
+---
+
+## Scientific & Architectural Guidelines
+
+When contributing code or algorithms, please keep the following non-negotiable scientific boundaries in mind:
+
+1. **Daily Temporal Resolution**:
+   - Caravan v1.6 and GRDC-Caravan provide observations aggregated at daily (24-hour) intervals.
+   - **Never** infer sub-hourly flash-flood intensity from daily rainfall totals.
+   - **Never** report lag times or timings in hours; report response timings strictly in days.
+   - Do not apply smoothing that implies higher temporal resolution.
+2. **Analytical Transparency**:
+   - Estimated baseflow from digital filters (Lyne-Hollick, Eckhardt) must be labeled as filtered quickflow / baseflow estimates, not direct groundwater measurements.
+3. **Decoupled Architecture**:
+   - Scientific calculations and algorithms belong in `hydro/` and must remain decoupled from HTTP handlers and frontend visualization code.
+   - Analytical queries should leverage DuckDB over Parquet files.
+
+---
+
+## Quality Standards
+
+Before submitting a Pull Request, ensure that all linting and automated tests pass:
+
+```bash
+# Run all Python scientific and API tests
+make test
+
+# Check Python code formatting and linting
+make lint
+
+# Run Next.js production build
+make build
+```
+
+---
+
+## Pull Request Guidelines
+
+1. Create a dedicated branch for your work: `git checkout -b feature/your-feature-name`.
+2. Write clear, imperative commit messages.
+3. Include unit tests in `tests/` for any new analytical formulas, edge cases, or API endpoints.
+4. Ensure documentation in `docs/` is updated if behavior or parameters change.
+5. Open a Pull Request referencing any related issues.
