@@ -1,0 +1,47 @@
+{
+  "name": "HydroEventLab Dataset Catalog",
+  "primary_dataset": {
+    "name": "Caravan",
+    "version": "1.6",
+    "doi": "10.1038/s41597-023-01975-w",
+    "zenodo_records": [
+      "15529786",
+      "15530021"
+    ],
+    "citation": "Kratzert et al., Caravan - A global community dataset for large-sample hydrology, Scientific Data 10, 61 (2023).",
+    "temporal_resolution": "Daily",
+    "time_zone": "UTC / Local Standard Time per regional CAMELS source",
+    "units": {
+      "precipitation": "mm/day",
+      "streamflow": "mm/day (catchment area normalized runoff)",
+      "temperature": "\u00b0C",
+      "potential_evapotranspiration": "mm/day",
+      "snow_depth_water_equivalent": "mm"
+    },
+    "limitations": [
+      "Daily aggregation precludes sub-hourly peak or hydrograph lag analysis.",
+      "Catchment-averaged meteorological forcing does not represent spatial rainfall patterns within large basins.",
+      "Streamflow observations are normalized by reported gauge catchment area."
+    ]
+  },
+  "indexed_catchments": 8,
+  "indexed_events": 487,
+  "countries": [
+    "Australia",
+    "Austria",
+    "United Kingdom",
+    "United States"
+  ],
+  "climate_zones": [
+    "Cfa - Humid Subtropical / Semi-arid",
+    "Cfb - Mountain Maritime / Eucalypt",
+    "Cfb - Oceanic Temperate",
+    "Cfb - Oceanic Temperate / Pennines",
+    "Csb - Warm-summer Mediterranean",
+    "Dfb - Alpine Foothills / Central Europe",
+    "Dfb - Humid Continental",
+    "Dfc - Subarctic Alpine"
+  ],
+  "min_date": "2018-01-01",
+  "max_date": "2022-12-31"
+}

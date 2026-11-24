@@ -1,0 +1,789 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "camels_01022500",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -67.79519,
+              44.65723
+            ],
+            [
+              -67.84129,
+              44.6952
+            ],
+            [
+              -67.8423,
+              44.74816
+            ],
+            [
+              -67.90931,
+              44.76158
+            ],
+            [
+              -67.97002,
+              44.75927
+            ],
+            [
+              -68.05109,
+              44.79657
+            ],
+            [
+              -68.07294,
+              44.7305
+            ],
+            [
+              -68.11498,
+              44.69998
+            ],
+            [
+              -68.1149,
+              44.65723
+            ],
+            [
+              -68.11918,
+              44.61325
+            ],
+            [
+              -68.1196,
+              44.55074
+            ],
+            [
+              -68.03606,
+              44.54373
+            ],
+            [
+              -67.97002,
+              44.55878
+            ],
+            [
+              -67.91991,
+              44.57111
+            ],
+            [
+              -67.85222,
+              44.57337
+            ],
+            [
+              -67.84416,
+              44.62012
+            ],
+            [
+              -67.79519,
+              44.65723
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "catchment_id": "camels_01022500",
+        "gauge_id": "01022500",
+        "gauge_name": "Narraguagus River at Cherryfield, ME",
+        "country": "United States",
+        "dataset": "caravan",
+        "sub_dataset": "camels_us",
+        "latitude": 44.6078,
+        "longitude": -67.9353,
+        "area_km2": 591.2,
+        "elevation_m": 72.0,
+        "slope_m_per_km": 14.8,
+        "mean_precipitation_mm_day": 3.42,
+        "mean_pet_mm_day": 2.15,
+        "aridity_index": 0.63,
+        "snow_fraction": 0.22,
+        "climate_zone": "Dfb - Humid Continental",
+        "forest_fraction": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "camels_11532500",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.90299,
+              41.87566
+            ],
+            [
+              -123.85311,
+              41.95442
+            ],
+            [
+              -123.92359,
+              42.01326
+            ],
+            [
+              -123.99577,
+              42.07794
+            ],
+            [
+              -124.10816,
+              42.03498
+            ],
+            [
+              -124.23728,
+              42.10806
+            ],
+            [
+              -124.25352,
+              41.98402
+            ],
+            [
+              -124.39366,
+              41.96382
+            ],
+            [
+              -124.38502,
+              41.87566
+            ],
+            [
+              -124.39695,
+              41.78648
+            ],
+            [
+              -124.34404,
+              41.6998
+            ],
+            [
+              -124.19215,
+              41.72448
+            ],
+            [
+              -124.10816,
+              41.66819
+            ],
+            [
+              -123.99995,
+              41.68089
+            ],
+            [
+              -123.94874,
+              41.7568
+            ],
+            [
+              -123.85092,
+              41.79622
+            ],
+            [
+              -123.90299,
+              41.87566
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "catchment_id": "camels_11532500",
+        "gauge_id": "11532500",
+        "gauge_name": "Smith River near Crescent City, CA",
+        "country": "United States",
+        "dataset": "caravan",
+        "sub_dataset": "camels_us",
+        "latitude": 41.7946,
+        "longitude": -124.0538,
+        "area_km2": 1589.5,
+        "elevation_m": 612.0,
+        "slope_m_per_km": 68.4,
+        "mean_precipitation_mm_day": 7.15,
+        "mean_pet_mm_day": 2.45,
+        "aridity_index": 0.34,
+        "snow_fraction": 0.08,
+        "climate_zone": "Csb - Warm-summer Mediterranean",
+        "forest_fraction": 0.94
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "camels_08167500",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.63024,
+              30.06499
+            ],
+            [
+              -98.76217,
+              30.13603
+            ],
+            [
+              -98.72653,
+              30.26736
+            ],
+            [
+              -98.88001,
+              30.23258
+            ],
+            [
+              -98.96014,
+              30.25249
+            ],
+            [
+              -99.04496,
+              30.24239
+            ],
+            [
+              -99.15081,
+              30.23017
+            ],
+            [
+              -99.19632,
+              30.14974
+            ],
+            [
+              -99.17874,
+              30.06499
+            ],
+            [
+              -99.22735,
+              29.96911
+            ],
+            [
+              -99.15409,
+              29.89697
+            ],
+            [
+              -99.07069,
+              29.83378
+            ],
+            [
+              -98.96014,
+              29.87469
+            ],
+            [
+              -98.87972,
+              29.8968
+            ],
+            [
+              -98.72359,
+              29.86008
+            ],
+            [
+              -98.76401,
+              29.99461
+            ],
+            [
+              -98.63024,
+              30.06499
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "catchment_id": "camels_08167500",
+        "gauge_id": "08167500",
+        "gauge_name": "Guadalupe River at Comfort, TX",
+        "country": "United States",
+        "dataset": "caravan",
+        "sub_dataset": "camels_us",
+        "latitude": 29.9705,
+        "longitude": -98.9056,
+        "area_km2": 2160.0,
+        "elevation_m": 435.0,
+        "slope_m_per_km": 28.5,
+        "mean_precipitation_mm_day": 2.18,
+        "mean_pet_mm_day": 4.12,
+        "aridity_index": 1.89,
+        "snow_fraction": 0.01,
+        "climate_zone": "Cfa - Humid Subtropical / Semi-arid",
+        "forest_fraction": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "camels_09065500",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -106.24846,
+              39.61772
+            ],
+            [
+              -106.24825,
+              39.63122
+            ],
+            [
+              -106.26339,
+              39.63865
+            ],
+            [
+              -106.27273,
+              39.65088
+            ],
+            [
+              -106.29056,
+              39.65543
+            ],
+            [
+              -106.30654,
+              39.64745
+            ],
+            [
+              -106.32599,
+              39.64502
+            ],
+            [
+              -106.32169,
+              39.62765
+            ],
+            [
+              -106.33148,
+              39.61772
+            ],
+            [
+              -106.32902,
+              39.60544
+            ],
+            [
+              -106.3243,
+              39.59172
+            ],
+            [
+              -106.30939,
+              39.58269
+            ],
+            [
+              -106.29056,
+              39.58101
+            ],
+            [
+              -106.27847,
+              39.59523
+            ],
+            [
+              -106.25835,
+              39.5929
+            ],
+            [
+              -106.25643,
+              39.60683
+            ],
+            [
+              -106.24846,
+              39.61772
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "catchment_id": "camels_09065500",
+        "gauge_id": "09065500",
+        "gauge_name": "Gore Creek at Upper Station near Minturn, CO",
+        "country": "United States",
+        "dataset": "caravan",
+        "sub_dataset": "camels_us",
+        "latitude": 39.6053,
+        "longitude": -106.2825,
+        "area_km2": 37.3,
+        "elevation_m": 2682.0,
+        "slope_m_per_km": 115.0,
+        "mean_precipitation_mm_day": 3.1,
+        "mean_pet_mm_day": 1.85,
+        "aridity_index": 0.6,
+        "snow_fraction": 0.68,
+        "climate_zone": "Dfc - Subarctic Alpine",
+        "forest_fraction": 0.65
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "camels_gb_39001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.32087,
+              51.61778
+            ],
+            [
+              0.45313,
+              51.85666
+            ],
+            [
+              0.14317,
+              52.00118
+            ],
+            [
+              -0.10769,
+              52.16568
+            ],
+            [
+              -0.47157,
+              52.14118
+            ],
+            [
+              -0.74701,
+              52.03251
+            ],
+            [
+              -0.90852,
+              51.8903
+            ],
+            [
+              -1.21262,
+              51.80922
+            ],
+            [
+              -1.15458,
+              51.61778
+            ],
+            [
+              -1.33075,
+              51.39583
+            ],
+            [
+              -1.16627,
+              51.18451
+            ],
+            [
+              -0.74335,
+              51.20856
+            ],
+            [
+              -0.47157,
+              51.00286
+            ],
+            [
+              -0.20211,
+              51.21206
+            ],
+            [
+              0.09448,
+              51.26475
+            ],
+            [
+              0.10088,
+              51.4699
+            ],
+            [
+              0.32087,
+              51.61778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "catchment_id": "camels_gb_39001",
+        "gauge_id": "39001",
+        "gauge_name": "Thames at Kingston",
+        "country": "United Kingdom",
+        "dataset": "caravan",
+        "sub_dataset": "camels_gb",
+        "latitude": 51.415,
+        "longitude": -0.309,
+        "area_km2": 9948.0,
+        "elevation_m": 110.0,
+        "slope_m_per_km": 8.2,
+        "mean_precipitation_mm_day": 1.95,
+        "mean_pet_mm_day": 1.72,
+        "aridity_index": 0.88,
+        "snow_fraction": 0.02,
+        "climate_zone": "Cfb - Oceanic Temperate",
+        "forest_fraction": 0.12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "camels_gb_27001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.16501,
+              53.79646
+            ],
+            [
+              -1.20657,
+              53.85568
+            ],
+            [
+              -1.27815,
+              53.89708
+            ],
+            [
+              -1.35178,
+              53.93423
+            ],
+            [
+              -1.44826,
+              53.91521
+            ],
+            [
+              -1.56098,
+              53.95741
+            ],
+            [
+              -1.59027,
+              53.88045
+            ],
+            [
+              -1.69851,
+              53.85777
+            ],
+            [
+              -1.68254,
+              53.79646
+            ],
+            [
+              -1.73152,
+              53.72706
+            ],
+            [
+              -1.6157,
+              53.69742
+            ],
+            [
+              -1.54133,
+              53.66355
+            ],
+            [
+              -1.44826,
+              53.67522
+            ],
+            [
+              -1.34253,
+              53.64547
+            ],
+            [
+              -1.23161,
+              53.66831
+            ],
+            [
+              -1.24434,
+              53.7465
+            ],
+            [
+              -1.16501,
+              53.79646
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "catchment_id": "camels_gb_27001",
+        "gauge_id": "27001",
+        "gauge_name": "Calder at Methley",
+        "country": "United Kingdom",
+        "dataset": "caravan",
+        "sub_dataset": "camels_gb",
+        "latitude": 53.737,
+        "longitude": -1.398,
+        "area_km2": 855.3,
+        "elevation_m": 185.0,
+        "slope_m_per_km": 42.1,
+        "mean_precipitation_mm_day": 2.85,
+        "mean_pet_mm_day": 1.65,
+        "aridity_index": 0.58,
+        "snow_fraction": 0.05,
+        "climate_zone": "Cfb - Oceanic Temperate / Pennines",
+        "forest_fraction": 0.15
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "camels_aus_410730",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              148.88949,
+              -35.56547
+            ],
+            [
+              148.88184,
+              -35.54073
+            ],
+            [
+              148.8617,
+              -35.52211
+            ],
+            [
+              148.83074,
+              -35.52159
+            ],
+            [
+              148.80839,
+              -35.50914
+            ],
+            [
+              148.7792,
+              -35.50816
+            ],
+            [
+              148.74705,
+              -35.51558
+            ],
+            [
+              148.7513,
+              -35.54623
+            ],
+            [
+              148.73873,
+              -35.56547
+            ],
+            [
+              148.74052,
+              -35.58833
+            ],
+            [
+              148.7612,
+              -35.60384
+            ],
+            [
+              148.77504,
+              -35.63094
+            ],
+            [
+              148.80839,
+              -35.61935
+            ],
+            [
+              148.83992,
+              -35.62737
+            ],
+            [
+              148.87337,
+              -35.6183
+            ],
+            [
+              148.87478,
+              -35.58783
+            ],
+            [
+              148.88949,
+              -35.56547
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "catchment_id": "camels_aus_410730",
+        "gauge_id": "410730",
+        "gauge_name": "Cotter River at Gingera",
+        "country": "Australia",
+        "dataset": "caravan",
+        "sub_dataset": "camels_aus",
+        "latitude": -35.5902,
+        "longitude": 148.8236,
+        "area_km2": 148.0,
+        "elevation_m": 1120.0,
+        "slope_m_per_km": 55.0,
+        "mean_precipitation_mm_day": 2.65,
+        "mean_pet_mm_day": 3.1,
+        "aridity_index": 1.17,
+        "snow_fraction": 0.12,
+        "climate_zone": "Cfb - Mountain Maritime / Eucalypt",
+        "forest_fraction": 0.96
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lamah_ce_10006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.45726,
+              48.28079
+            ],
+            [
+              14.40125,
+              48.41289
+            ],
+            [
+              14.30152,
+              48.53317
+            ],
+            [
+              14.10776,
+              48.57805
+            ],
+            [
+              13.92319,
+              48.66199
+            ],
+            [
+              13.71833,
+              48.61071
+            ],
+            [
+              13.57159,
+              48.51534
+            ],
+            [
+              13.50224,
+              48.39711
+            ],
+            [
+              13.53537,
+              48.28079
+            ],
+            [
+              13.58468,
+              48.18726
+            ],
+            [
+              13.57688,
+              48.04978
+            ],
+            [
+              13.71688,
+              47.94855
+            ],
+            [
+              13.92319,
+              48.00355
+            ],
+            [
+              14.13449,
+              47.94049
+            ],
+            [
+              14.32127,
+              48.01524
+            ],
+            [
+              14.26474,
+              48.18642
+            ],
+            [
+              14.45726,
+              48.28079
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "catchment_id": "lamah_ce_10006",
+        "gauge_id": "10006",
+        "gauge_name": "Traun at Wels-Lichtenegg",
+        "country": "Austria",
+        "dataset": "caravan",
+        "sub_dataset": "lamah_ce",
+        "latitude": 48.1583,
+        "longitude": 14.015,
+        "area_km2": 3630.0,
+        "elevation_m": 840.0,
+        "slope_m_per_km": 62.0,
+        "mean_precipitation_mm_day": 3.85,
+        "mean_pet_mm_day": 1.95,
+        "aridity_index": 0.51,
+        "snow_fraction": 0.28,
+        "climate_zone": "Dfb - Alpine Foothills / Central Europe",
+        "forest_fraction": 0.52
+      }
+    }
+  ]
+}
