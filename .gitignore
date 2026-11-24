@@ -72,5 +72,15 @@ yarn-error.log*
 
 # Python
 venv
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+
+# Data Raw
+data/raw/*
+!data/raw/.gitkeep
+
 
 PLAN.md
